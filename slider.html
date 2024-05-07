@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+</head>
+
+<body>
+    <div class="sliderservice">
+        <h2 class="slidername">Service</h2>
+
+        <div class="serviceslide">
+            <div class="serviceimage">
+                <img src="images/Soil Nailing-Geotechdc service.jpg" class="" alt="">
+                <p class="servicename">Soil Nailing</p>
+            </div>
+            <div class="serviceimage">
+                <img src="images/Weep Hole Drainage Hole service​.jpg" class="" alt="">
+                <p class="servicename">Weep Hole/ Drainage Hole</p>
+            </div>
+            <div class="serviceimage">
+                <img src="images/Ground Anchor service.jpg" class="" alt="">
+                <p class="servicename">Anchoring</p>
+            </div>
+            <div class="serviceimage">
+                <img src="images/RCC Pile service.jpg" alt="">
+                <p class="servicename">RCC Piling</p>
+            </div>
+            <div class="serviceimage">
+                <img src="images/Ground Anchor service.jpg" alt="">
+                <p class="servicename">Grouting</p>
+            </div>
+            <div class="serviceimage">
+                <img src="images/Manual Drilling service.jpg" alt="">
+                <p class="servicename">Manual Drilling</p>
+            </div>
+        </div>
+    </div>
+    <div class="sliderservice">
+        <h2 class="slidername">Project</h2>
+
+        <div class="serviceslide">
+            <div class="serviceimage">
+                <img src="images/Khanikhola Dolakha SoilNailing view project.jpeg" class="" alt="">
+                <p class="servicename">Khanikhola Dolakha</p>
+            </div>
+            <div class="serviceimage">
+                <img src="images/thapatar godak.jpg" class="" alt="">
+                <p class="servicename">Thapatar Godak</p>
+            </div>
+            <div class="serviceimage">
+                <img src="images/setikhola.jpg" class="" alt="">
+                <p class="servicename">Seti Khola</p>
+            </div>
+            <div class="serviceimage">
+                <img src="images/NGT-Muglin Soil Nailing.jpg" alt="">
+                <p class="servicename">Narayanghat Muglin</p>
+            </div>
+            <div class="serviceimage">
+                <img src="images/tilpung.jpg" alt="">
+                <p class="servicename">Tilpung</p>
+            </div>
+            <div class="serviceimage">
+                <img src="images/setikhola hydro.jpg" alt="">
+                <p class="servicename">Setikhola Hydro</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script type="text/javascript">
+        $('.serviceslide').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+        });
+
+
+
+    </script>
+</body>
+
+</html>
+
+<style>
+    .serviceslide .slick-slide>div {
+        margin-right: 10px;
+    }
+    .slick-slide img {
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+    button.slick-prev.slick-arrow {
+        color: #283328;
+        background: darkgreen;
+    }
+
+    button.slick-next.slick-arrow {
+        color: #283328;
+        background: darkgreen;
+    }
+    .serviceslide.slick-initialized.slick-slider {
+    margin: 30px;
+}
+.serviceimage {
+    background-color: whitesmoke;
+    border-bottom: 1px solid darkgreen;
+    border-radius: 9px;
+}
+
+h2.slidername {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: darkgreen;
+}
+p.servicename {
+    text-align: center;
+    font-size: 25px;
+    color: darkgreen;
+}
+</style>

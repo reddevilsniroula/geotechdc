@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://web.archive.org/web/20220202102639im_/https://fonts.gstatic.com/s/rajdhani/v14/LDI2apCSOBg7S-QT7pasEfOreeI.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://web.archive.org/web/20220202102639im_/https://fonts.gstatic.com/s/rajdhani/v14/LDIxapCSOBg7S-QT7p4HM-M.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://web.archive.org/web/20220202102639im_/https://fonts.gstatic.com/s/rajdhani/v14/LDI2apCSOBg7S-QT7pb0EPOreeI.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://web.archive.org/web/20220202102639im_/https://fonts.gstatic.com/s/rajdhani/v14/LDI2apCSOBg7S-QT7pbYF_OreeI.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://web.archive.org/web/20220202102639im_/https://fonts.gstatic.com/s/rajdhani/v14/LDI2apCSOBg7S-QT7pa8FvOreeI.ttf) format('truetype');
+}
+
+/*
+     FILE ARCHIVED ON 10:26:39 Feb 02, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:15:24 Mar 20, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.068
+  exclusion.robots.policy: 0.056
+  cdx.remote: 0.094
+  esindex: 0.01
+  LoadShardBlock: 251.066 (6)
+  PetaboxLoader3.datanode: 281.964 (7)
+  load_resource: 147.701
+  PetaboxLoader3.resolve: 87.345
+*/
